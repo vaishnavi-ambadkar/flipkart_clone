@@ -351,6 +351,7 @@ const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate(); // Hook for navigation
+   axios.defaults.withCredentials=true;
 
   const handleLogin = async (e) => {
     e.preventDefault();
