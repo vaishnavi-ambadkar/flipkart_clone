@@ -360,7 +360,7 @@ const Cart = () => {
 
   const placeOrder = async (items) => {
     try {
-      const response = await fetch("http://localhost:5000/api/place-order", {
+      const response = await fetch("https://vercel.com/vaishnavi-ambadkars-projects/flipkart-clone-api/api/place-order", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
