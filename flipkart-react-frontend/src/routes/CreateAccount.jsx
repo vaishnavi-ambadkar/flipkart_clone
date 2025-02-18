@@ -100,7 +100,7 @@ const CreateAccount = () => {
     const userData = { fullname, email, mobile, password };
 
     try {
-      const response = await fetch("http://localhost:5000/api/register", {
+      const response = await fetch("https://vercel.com/vaishnavi-ambadkars-projects/flipkart-clone-api/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
