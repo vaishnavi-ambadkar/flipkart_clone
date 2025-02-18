@@ -351,7 +351,7 @@ import { useSelector } from "react-redux";
 import CartItems from "../components/CartItems";
 import CartSummary from "../components/CartSummary";
 import Header from "../components/Header";
- axios.defaults.withCredentials=true;
+
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart);
